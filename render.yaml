@@ -12,12 +12,10 @@ services:
       - key: PYTHON_VERSION
         value: 3.11.9
 
-  # 2. React Vite Single Page App (Frontend)
+  # 2. React Vite Single Page App (Frontend - Global CDN)
   - type: web
     name: synopsis-frontend
     runtime: static
-    plan: free
-    region: oregon
     branch: main
     buildCommand: "npm --prefix client install && npm --prefix client run build"
     staticPublishPath: client/dist
