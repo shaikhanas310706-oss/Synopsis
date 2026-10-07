@@ -3,23 +3,23 @@
     "id": "learner_01",
     "name": "Alex Mercer",
     "role": "student",
-    "xp": 3191,
+    "xp": 2957,
     "level": 8,
     "streak": 6,
     "lastActive": "2026-09-22T06:32:07.795Z",
     "cognitiveMetrics": {
       "averageAccuracy": 0.78,
-      "metacognitiveCalibration": 0.89,
+      "metacognitiveCalibration": 0.87,
       "cognitiveStamina": 92,
       "learningVelocity": 1.35,
       "totalSessionsCompleted": 24,
-      "totalQuestionsAnswered": 151
+      "totalQuestionsAnswered": 149
     },
     "domainMastery": {
       "math_foundations": 0.94,
       "gradient_descent": 0.88,
       "neural_networks": 0.81,
-      "backprop": 0.99,
+      "backprop": 0.95,
       "regularization": 0.42,
       "cnn": 0.15,
       "rnn_lstm": 0,
